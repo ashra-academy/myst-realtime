@@ -1,0 +1,21 @@
+.App {
+  text-align: left;
+}
+
+.panel-wrapper {
+  width: 100%;
+  display: flex;
+  flex-direction: row;
+  margin: 0 0 20px 0;
+}
+
+.panel {
+  flex-grow: 1
+}
+
+.frontmatter {
+  margin: 0 0 2em 0;
+}
+
+
+
