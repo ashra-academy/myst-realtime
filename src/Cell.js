@@ -17,10 +17,12 @@ $$\n\\label{maxwell}\n\\begin{aligned}\n\\nabla \\times \\vec{e}+\\frac{\\partia
   return (
     <div className="App">
       <div className="panel-wrapper">
-        <div  style={{height:'100%', width: '50%'}}>
+        <div  style={{height:'100%', width: '50%', border: "2px solid black", padding: "4px"}}>
         <CodeMirror value={value} onChange={onChange} />
         </div>
+        <div style={{height:'100%', width: '50%', padding: "4px"}}>
         <MystPreview className="panel" value={value} />
+        </div>
       </div>
     </div>
   );
